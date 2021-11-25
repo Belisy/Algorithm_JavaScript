@@ -21,5 +21,7 @@ for (i=1; i<=n; i++) {
 
 // for (let i = 1; i <= n; i++) {
 //   answer += i + '\n';
+// console.log를 바로 안에 적으면, 계속 콘솔을 왔다갔다 하면서 시간이 많이 걸리기 때문에
+// answer변수를 만들어서 반복문으로 넣어주고, 나중에 한번에 answer를 출력해서 시간을 절약한다.
 // }
 // console.log(answer);
